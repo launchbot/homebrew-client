@@ -1,8 +1,8 @@
 class Launchbot < Formula
   desc "Launch, discover, and share containers from your desktop."
   homepage "http://launchbot.io"
-  url "https://github.com/launchbot/homebrew-client/releases/download/0.0.6/launchbot-0.0.6.tar.gz"
-  sha256 "981360cd802e6f7e5e7f1bf255263d0eb99450f2874577a6f263b29de57eb100"
+  url "https://github.com/launchbot/homebrew-client/releases/download/0.0.7/launchbot-0.0.7.tar.gz"
+  sha256 "d1cb254049a819fabdb14ffd4bfb316c01b7ca44d06a99632e95238267ab7ed8"
 
   bottle :unneeded
 
