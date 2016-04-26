@@ -1,8 +1,8 @@
 class Launchbot < Formula
   desc "Launch, discover, and share containers from your desktop."
   homepage "http://launchbot.io"
-  url "https://github.com/launchbot/homebrew-client/releases/download/0.0.8/launchbot-0.0.8.tar.gz"
-  sha256 "5d83f8d16430bc96c1444c074c25f97a6a4659966ee9c460ad14903eb0d2a6ec"
+  url "https://github.com/launchbot/homebrew-client/releases/download/0.0.9/launchbot-0.0.9.tar.gz"
+  sha256 "8d5dc04ae97d697825cb45bb6937f9fe4702afd0dfc4054e78e7319511db85ca"
 
   bottle :unneeded
 
@@ -10,8 +10,8 @@ class Launchbot < Formula
     bin.install "launchbot"
   end
 
-  #test do
-  #  system "#{bin}/delta", "--version"
-  #end
+  test do
+    system "#{bin}/launchbot", "-version"
+  end
 
 end
